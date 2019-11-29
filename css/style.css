@@ -1,0 +1,537 @@
+body {
+  font-family: Lato;
+  font-size: 14px;
+  color: #d2d2d2;
+}
+
+
+h1 {
+
+}
+
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  font-weight: bolder;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  padding-top: 5%;
+  font-weight: bold;
+
+}
+
+/** Header **/
+header {
+  /*como resolver el tema del background*/
+  background-color: #E7F0ED;
+  background-image: url(../img/header.svg);
+	color: #FE5F55;
+	text-align:center;
+	padding: 2px;
+	font-family: Roboto Slab;
+}
+
+ .nblogo{
+   height: 100px;
+   width: 100px;
+   line-height: 100px;
+}
+
+
+
+/** TRENDING **/
+
+#trending h2 {
+  color: #FE5F55;
+}
+
+#trending h4{
+  font-size: 15px;
+  color: #435969;
+}
+
+
+  #thumbnail-trending {
+    margin-top: 15px;
+}
+
+
+
+
+/**NEW**/
+
+section#new{
+    background-image: url(../img/spot1.svg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: left top;
+}
+
+.title-section::before{
+  content: '';
+  background-image: url(../img/divider-left.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width:30%;
+  height: 30px;
+}
+.title-section::after{
+  content: '';
+  background-image: url(../img/divider-right.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width:30%;
+  height: 30px;
+}
+
+#new {
+  margin-top: 70px;
+  margin-bottom: 10%;
+}
+
+#new h3 {
+  color: #435969;
+}
+
+
+
+#thumbnail {
+  margin-top: 30px;
+}
+
+#new h4{
+    color: #435969;
+}
+
+
+
+/* SPOTS ALEATORIOS
+    background-image: url(../img/spot2.svg);
+*/
+
+/** Footer **/
+
+footer {
+  background-color: #FE5F55;
+  background-image: url(../img/footer-01.svg);
+	color: #FFFFFF;
+	padding: 10px;
+	font-family: Roboto Slab;
+}
+
+
+footer p{
+	font-size: 15px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+footer .btn-white {
+  color: #FE5F55;
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 25px;
+  background-color: #fff;
+  padding: 0 5%;
+  border: 0;
+}
+
+footer .btn-white:hover {
+  color: #fff;
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 25px;
+  background-color: transparent;
+  padding: 0 5%;
+  border: 1px solid #fff;
+
+}
+
+footer a li {
+  color: #fff;
+  text-decoration:none;
+}
+
+footer a li:hover {
+  color: #FECA01;
+  text-decoration:none;
+  border: 0;
+}
+
+#redes .fab {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 20px;
+  color: #FE5F55;
+  border-radius: 100%;
+}
+
+#redes .fab:hover {
+  background-color: #FECA01;
+}
+
+.maratus {
+  width: 150px;
+}
+
+
+.logofooter{
+ height: 100px;
+ width: 100px;
+ line-height: 100px;
+}
+
+
+
+
+
+/* ------------RECETAS MAIN PAGE ------------*/
+
+/** Meal Prep **/
+
+#mealprep h3 {
+  color: #ef476f;
+}
+
+#mealprep .title-section::before, #vegetarians .title-section::before{
+  content: '';
+  background-image: url(../img/divider-left-p.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width:30%;
+  height: 30px;
+}
+#mealprep .title-section::after, #vegetarians.title-section::after{
+  content: '';
+  background-image: url(../img/divider-right-p.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width:30%;
+  height: 30px;
+}
+
+#mealprep h4 {
+  color: #ef476f;
+}
+
+/** Ocasionales **/
+
+#ocasionales h3 {
+  color: #f87f01;
+}
+
+#ocasionales .title-section::before, #nobake .title-section::before{
+  content: '';
+  background-image: url(../img/divider-left-o.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width:30%;
+  height: 30px;
+}
+#ocasionales .title-section::after, #nobake .title-section::after{
+  content: '';
+  background-image: url(../img/divider-right-o.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width:30%;
+  height: 30px;
+}
+
+#ocasionales h4 {
+  color: #f87f01;
+}
+
+/** Vegetarianas **/
+
+#vegetarians h3 {
+  color: #ef476f;
+}
+
+#vegetarians #dividers {
+  fill: #ef476f;
+}
+
+#vegetarians h4 {
+  color: #ef476f;
+}
+
+/** No Bake **/
+#nobake {
+  margin-bottom: 10%;
+}
+
+#nobake h3 {
+  color: #f87f01;
+}
+
+#nobake #dividers {
+  fill: #f87f01;
+}
+
+#nobake h4 {
+  color: #f87f01;
+}
+
+
+
+
+/* ---------------ABOUT US---------------------- */
+
+}
+#subtitulo{
+font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  padding-bottom: 2%;
+  font-weight: lighter;
+}
+
+/* IDEA: HOVER */
+#titulo{
+font-family: 'Roboto Slab', serif;
+  font-size: 100px;
+  padding-top: 0%;
+  font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+#subtitulo{
+	font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  padding-bottom: 0%;
+  font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#nosotros{
+	background-image: url("../img/banner-01.jpg");
+	background-position: center;
+	background-size: cover;
+  height: 10%;
+	padding: 250px;
+  margin-top: 5%;
+}
+
+/* IDEA: QUIENES SOMOS */
+
+#acercade h4{
+	color: #435969;
+	font-size: 25px;
+	padding-bottom: 30px;
+  margin-top: 100px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#cont{
+	color: #435969;
+	font-size: 15px;
+	font-family: Lato, serif;
+	line-height: 30px;
+	text-align: left;
+}
+
+/* IDEA: Caja Rosa */
+
+#escucharte{
+	background-image: url("../img/fondorosado.png");
+  margin-top: 100px;
+  height: 400px;
+}
+
+#escucharte h2{
+	color: #fff;
+  font-weight: 400;
+	font-size: 30px;
+	padding-bottom: 2%;
+	padding-top: 7%;
+	text-align: center;
+}
+#escucharte h2 span{
+	color: #fff;
+  font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 2%;
+	padding-top: 7%;
+	text-align: center;
+}
+
+#conte{
+	color: #fff;
+	font-size: 15px;
+	font-family: Lato, serif;
+	line-height: 30px;
+  margin-top: 20px;
+
+
+}
+
+#conte-align {
+  margin: 0 auto;
+  max-width: 60%
+}
+
+
+.btn-yellow{
+	text-align: center;
+  background-color: #feca01;
+	color: #fe5f55;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 1px 5%;
+  border: 0;
+  margin-top: 40px;
+}
+
+.btn-yellow:hover {
+	color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+#quote {
+  margin-bottom: 10%;
+}
+
+
+
+/* ---------------CONTACTOS ----------------- */
+
+
+#contactanos{
+	background-image: url(../img/contactbanner.png);
+	background-position: center;
+	background-size: cover;
+	padding: 250px;
+  margin-top: 5%;
+}
+
+#contact-redes {
+	text-align: center;
+  margin-top: 120px;
+}
+
+#tredes {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #FE5F55;
+}
+
+
+#logosredes .fab {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #FE5F55;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 100%;
+
+}
+
+#logosredes .fab:hover {
+  background-color: #FECA01;
+}
+#hablar{
+	font-size: 15px;
+	color: #0000;
+}
+
+#form {
+  margin-top: 80px;
+  position: relative;
+}
+.fondo-form{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  bottom: 0;
+  background-image: url("../img/spot5.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-top: 100%;
+}
+
+#form .contact-intro {
+  font-family: Roboto Slab;
+  font-weight: 200;
+  font-size: 20px;
+  color:#212931 ;
+
+
+}
+
+#formularioscontacto label {
+  font-family: 'Roboto Slab', serif;
+  color: #F87F01;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#formularioscontacto input {
+  color: #E7F0ED;
+  font-size: 15px;
+
+}
+
+
+.btn-enviar{
+	text-align: center;
+  background-color: #FE5F55;
+	color: #F7F635;
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 1px 5%;
+  border: 0;
+  margin-top: 20px;
+}
+
+.btn-enviar:hover {
+	color:#FE5F55 ;
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 25px;
+  background-color: transparent;
+  padding: 0 5%;
+  border: 1px solid #FE5F55;
+}
+
+#espacio{
+  width: 100%;
+  min-height: 400px;
+  background-image: url("../img/spot5.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-top: 10%;
+}
