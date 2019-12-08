@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Acerca de Nosotos | Noob Cook</title>
 	 <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/bootstrap-custom.css">
+      <link rel="stylesheet" href="css/animate.css">
     <!-- FONTS -->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,900&display=swap" rel="stylesheet">
     <!-- IDEA: FONT AWESOME links -->
@@ -48,12 +50,14 @@
 		    </header>
 
 	<section id="nosotros">
-		<h3 id="subtitulo">
-		Acerca de
-		</h3>
-		<h2 id="titulo">
-		Nosotros
-		</h2>
+    <div class="container">
+  		<h3 id="subtitulo">
+  		Acerca de
+  		</h3>
+  		<h2 id="titulo">
+  		Nosotros
+  		</h2>
+    </div>
 	</section>
 
 		<section id="acercade" >
@@ -83,9 +87,15 @@
 			</div>
 		</section>
 
-		<section id="quote" class="container">
-		<p class="text-center"></p>
-		</section>
+		<section id="quote">
+      <div class="container animated fadeInUp ">
+
+    		<p class="text-center quote"> <span>"</span> Una receta no tiene alma.
+          <br>Es el cocinero quien debe de darle un alma a la receta. <span>"</span> </p>
+          <h6 class="quotea"> -Thomas Keller</h6>
+      </div>
+  	</section>
+
 
     <footer>
 
@@ -152,6 +162,12 @@
           </div>
 
     </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/gmaps.js"></script>
 
 
 </body>

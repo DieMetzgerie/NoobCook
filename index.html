@@ -7,6 +7,7 @@
 
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/bootstrap-custom.css">
+      <link rel="stylesheet" href="css/animate.css">
     <!-- FONTS -->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,900&display=swap" rel="stylesheet">
 
@@ -18,6 +19,9 @@
       <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
 
       <link rel="stylesheet" href="css/style.css">
+
+      <meta name="Noob Cook Homepage" content="Repertorio de recetas amigables a tu billetera y fáciles de hacer.">
+      <meta name="keywords" content="comida, food, barato, under a budget">
 
   </head>
 
@@ -38,7 +42,7 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                           <a class="nav-link" href="recetas.html">Recetas <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -122,13 +126,29 @@
             </article>
 
             <article id="highlights-home" class="col-md-3 col-sm-3 col-xs-12">
-                <h2>Destacados <br> Semanales</h2>
-
-                <img id="thumbnail-trending" class="img-fluid" src="https://siembraviva.com/home/wp-content/uploads/brocoli-papas-e1510925600109.jpg" alt="Brocoli">
-                <h4>Brócoli con Papas Rostizado</h4>
-
-                <img id="thumbnail-trending" class="img-fluid" src="https://siembraviva.com/home/wp-content/uploads/brocoli-papas-e1510925600109.jpg" alt="Brocoli">
-                <h4>Brócoli con Papas Rostizado</h4>
+                <h2 class="animated fadeInUp">Destacados <br> Semanales</h2>
+                  <div class="animated slideInRight">
+                    <div class="gallery img-zoom">
+                        <img id="thumbnail-trending" class="img-fluid" src="https://siembraviva.com/home/wp-content/uploads/brocoli-papas-e1510925600109.jpg" alt="Brocoli">
+                          <div class="overlay"></div>
+                            <div class="gallery-texto">
+                              <h4 class="imagehover">View</h4>
+                            </div>
+                        </div>
+                  <h4>Brócoli con Papas Rostizado</h4>
+                </div>
+                <div class="animated slideInRight">
+                  <a href="thanks.html">
+                    <div class="gallery img-zoom animated">
+                      <img id="thumbnail-trending" class="img-fluid" src="img/thanks/pie.jpg" alt="Brocoli">
+                        <div class="overlay"></div>
+                          <div class="gallery-texto">
+                            <h4 class="imagehover">View</h4>
+                          </div>
+                      </div>
+                  </a>
+                  <h4>Cheesecake con Manzana y Nueces</h4>
+                </div>
 
             </article>
 
@@ -141,51 +161,105 @@
     <section class="" id="new">
       <div class="container">
 
-              <h3 class="title-section">Nuevas</h3>
+              <h3 class="title-section animated zoomIn " data-wow-delay"3s">Nuevas</h3>
 
         <div class="row mt-5">
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
-            <img src="img/home/1_pollo-con-curry.jpg" class="img-fluid" alt="Pollo con Curry">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
+              <img src="img/home/1_pollo-con-curry.jpg" class="img-fluid" alt="Pollo con Curry">
+                <div class="overlay"></div>
+                  <div class="gallery-texto">
+                    <h4 class="imagehover">View</h4>
+                  </div>
+            </div>
             <h4 class="text-center">Pollo con Curry</h4>
           </article>
 
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
-            <img src="img/home/2_pollo-con-margarina.jpg" class="img-fluid" alt="Pollo con Margarina">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
+              <img src="img/home/2_pollo-con-margarina.jpg" class="img-fluid" alt="Pollo con Margarina">
+                <div class="overlay"></div>
+                  <div class="gallery-texto">
+                    <h4 class="imagehover">View</h4>
+                  </div>
+            </div>
             <h4 class="text-center">Pollo con Margarina</h4>
           </article>
 
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
             <img src="img/home/3_pollo-con-miel-mostaza.jpg" class="img-fluid" alt="Pollo con Miel Mostaza">
+              <div class="overlay"></div>
+                <div class="gallery-texto">
+                  <h4 class="imagehover">View</h4>
+                </div>
+          </div>
             <h4 class="text-center">Pollo con Miel Mostaza</h4>
           </article>
 
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
             <img src="img/home/4_pollo-horneado-con-parmesano.jpg" class="img-fluid" alt="Pollo Horneado con Parmesano">
+              <div class="overlay"></div>
+                <div class="gallery-texto">
+                  <h4 class="imagehover">View</h4>
+                </div>
+          </div>
             <h4 class="text-center">Pollo Horneado con Parmesano</h4>
           </article>
 
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
             <img src="img/home/5_pollo-al-estilo-indu.jpg" class="img-fluid" alt="Pollo al Estilo Indu">
+              <div class="overlay"></div>
+                <div class="gallery-texto">
+                  <h4 class="imagehover">View</h4>
+                </div>
+          </div>
             <h4 class="text-center">Pollo al Estilo Indu</h4>
           </article>
 
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
             <img src="img/home/6_cerdo-frito.jpg" class="img-fluid" alt="Cerdo Frito">
+              <div class="overlay"></div>
+                <div class="gallery-texto">
+                  <h4 class="imagehover">View</h4>
+                </div>
+          </div>
             <h4 class="text-center">Cerdo Frito</h4>
           </article>
 
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
             <img src="img/home/7_cerdo-con-cebolla-caramelizado.jpg" class="img-fluid" alt="Cerdo con Cebolla Caramelizado">
+              <div class="overlay"></div>
+                <div class="gallery-texto">
+                  <h4 class="imagehover">View</h4>
+                </div>
+          </div>
             <h4 class="text-center">Cerdo con Cebolla Caramelizado</h4>
           </article>
 
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
             <img src="img/home/8_sandwich-nocturno-cubano.jpg" class="img-fluid" alt="Sandwich Nocturno Cubano">
+              <div class="overlay"></div>
+                <div class="gallery-texto">
+                  <h4 class="imagehover">View</h4>
+                </div>
+          </div>
             <h4 class="text-center">Sandwich Nocturno Cubano</h4>
           </article>
 
-          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12">
+          <article id="thumbnail" class="col-md-4 col-sm-4 col-xs-12 animated fadeInUp" data-wow-delay"2s">
+            <div class="img-zoom gallery">
             <img src="img/home/9_cerdo-con-salsa-balsamica.jpg" class="img-fluid" alt="Cerdo con Salsa Balsámica">
+              <div class="overlay"></div>
+                <div class="gallery-texto">
+                  <h4 class="imagehover">View</h4>
+                </div>
+          </div>
             <h4 class="text-center">Cerdo con Salsa Balsámica</h4>
           </article>
        </div>
@@ -268,6 +342,20 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/gmaps.js"></script>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153797582-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-153797582-1');
+  </script>
+
 
   </body>
 </html>

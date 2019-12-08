@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,400i,700,700i&display=swap');
+
+
+
 body {
   font-family: Lato;
   font-size: 14px;
@@ -32,6 +36,70 @@ h4 {
   font-weight: bold;
 
 }
+
+
+
+/* PARA IMAGENES EN DISPLAY */
+
+.imagehover {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #FFF !important;
+  text-transform: uppercase;
+}
+
+.gallery {
+position: relative;
+overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.20);
+  opacity: 0;
+  transition: 0.3s all ease-out;
+}
+
+.gallery:hover .overlay {
+  opacity: 100%;
+  transition: 0.3s all ease-in;
+}
+
+.gallery-texto {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.gallery-texto:hover {
+  opacity: 100%;
+  transition: 0.8s all ease;
+}
+
+.img-zoom img{
+  transition: 0.3s all ease;
+}
+
+.img-zoom:hover img{
+  transform: scale(1.30);
+  transition: 0.3s all ease;
+  filter: grayscale(0.6);
+}
+
+
 
 /** Header **/
 header {
@@ -118,6 +186,9 @@ section#new{
     color: #435969;
 }
 
+.bottomalways {
+  margin-bottom: 15%;
+}
 
 
 /* SPOTS ALEATORIOS
@@ -220,7 +291,7 @@ footer a li:hover {
   width:30%;
   height: 30px;
 }
-#mealprep .title-section::after, #vegetarians.title-section::after{
+#mealprep .title-section::after, #vegetarians .title-section::after{
   content: '';
   background-image: url(../img/divider-right-p.svg);
   background-size: contain;
@@ -269,10 +340,6 @@ footer a li:hover {
   color: #ef476f;
 }
 
-#vegetarians #dividers {
-  fill: #ef476f;
-}
-
 #vegetarians h4 {
   color: #ef476f;
 }
@@ -284,10 +351,6 @@ footer a li:hover {
 
 #nobake h3 {
   color: #f87f01;
-}
-
-#nobake #dividers {
-  fill: #f87f01;
 }
 
 #nobake h4 {
@@ -343,7 +406,7 @@ font-family: 'Roboto Slab', serif;
 	color: #435969;
 	font-size: 25px;
 	padding-bottom: 30px;
-  margin-top: 100px;
+  margin-top: 10%;
   text-align: left;
   text-transform: uppercase;
 }
@@ -415,8 +478,38 @@ font-family: 'Roboto Slab', serif;
   background-color: transparent;
 }
 
-#quote {
-  margin-bottom: 10%;
+section#quote {
+    margin-top: 20%;
+    background-image: url(../img/spot4.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    height:700px;
+}
+
+.quote {
+  font-size:30px;
+  font-style: italic;
+  text-align: center;
+  color: #212931;
+  line-height: 30px;
+}
+
+.quote span {
+  font-family: 'Amiri', serif !important;
+  font-size: 50px;
+  font-weight: bold;
+  color: #feca01;
+
+}
+
+.quotea {
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: right;
+  color: #feca01;
+margin-right: 20%;
+
 }
 
 
@@ -534,4 +627,85 @@ font-family: 'Roboto Slab', serif;
   background-size: cover;
   background-position: bottom;
   margin-top: 10%;
+}
+
+#maps {
+  margin-top: 10%;
+  align-content: center;
+}
+
+/* ---------------THANKSGIVING ----------------- */
+
+.thanks-header{
+	background-image:url("../img/thanks/ocasionales-fondo.svg");
+	background-position:top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 6% 0;
+	margin-top: 5%;
+}
+
+.guardar{
+	color: #212931;
+	font-size: 24px;
+}
+
+.thanks-info{
+	color: #435969;
+	font-size: 18px;
+}
+
+.thanks-info p{
+	color: #435969;
+	font-size: 18px;
+	padding-top: 8%;
+
+}
+
+.titulo-receta{
+	color: #fff;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: left;
+
+}
+
+.pasos{
+	color: #F87F01;
+	font-size: 45px;
+	text-align: left;
+	margin:10% 0;
+}
+
+.listado li{
+	color: #435969;
+	font-size: 18px;
+	text-align: left;
+	padding: 10px;
+}
+
+.listado span{
+	color: #F87F01;
+}
+.pana{
+	height: 100px;
+	width: 100px;
+}
+
+#img-small{
+	height: 270px;
+	width: auto;
+}
+
+#img-portada{
+	height: 320px;
+	width: auto;
+}
+
+h6{
+	color: #212931;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5% 0;
+
 }
